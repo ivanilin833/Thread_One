@@ -8,7 +8,7 @@ public class MyCallable implements Callable<Integer> {
     }
 
     @Override
-    public Integer call() throws Exception {
+    public Integer call() {
         return logic(text);
     }
 
